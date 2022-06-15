@@ -391,19 +391,7 @@ body {
   margin-right: 30px;
   height: 120px;
 }
-.div-phone li:nth-child(2) {
-  margin-left: 10px;
-}
-.div-phone {
-  margin-left: 30px;
-}
-.div-phone:hover,
-.div-phone:focus,
-.div-phone:hover svg,
-.div-phone:focus svg {
-  color: #2196f3;
-  fill: #2196f3;
-}
+
 .svg-clients {
   border: 1px solid #afb1b8;
   border-radius: 4px;
@@ -495,9 +483,7 @@ transition: transform 250ms ease;}
 .footer-icon-div:focus {
   background-color: #2196f3;
 }
-.div-phone {
-  display: flex;
-}
+
 .li-what-we-do {position: relative;}
 .div-what-we-do {position:absolute;
 width: 370px; height: 70px;
@@ -527,3 +513,29 @@ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);}
   .link-after:active::after {display: block;
   position: absolute;}
 .nav-li {position: relative;}
+
+.link-header {
+  text-decoration: none;
+  color: #757575;
+  align-items: center;
+}
+
+.li-header:nth-child(1) {
+  margin-right: 30px;
+}
+.ul-header {list-style: none;
+display: flex;
+margin-left: auto;}
+
+.li-header:focus a,
+.li-header:hover a,
+.li-header:hover svg,
+.li-header:focus svg {
+  color: #2196f3;
+  fill: #2196f3;
+}
+
+.link-header {
+  display: flex;
+}
+.section2-svg {margin-right: 10px;}
